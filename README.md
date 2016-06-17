@@ -1,8 +1,13 @@
-# ShellGongeek
+## ShellGongeek
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/shell_gongeek`. To experiment with that code, run `bin/console` for an interactive prompt.
+简化方便操作一些常用linux命令的ruby脚本
 
-TODO: Delete this and the text above, and describe your gem
+目前支持: 
+
+    1. sr pk 3000 (删除占用3000端口的所有程序)
+    2. sr pl 3000 (等价于 lsof -i:3000)
+
+后续考虑以自己实用出发添加相应命令
 
 ## Installation
 
@@ -22,7 +27,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+目前支持: 
+
+    1. sr pk 3000 (删除占用3000端口的所有程序)
+    2. sr pl 3000 (等价于 lsof -i:3000)
 
 ## Development
 
@@ -32,5 +40,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/shell_gongeek.
+Bug reports and pull requests are welcome on GitHub at https://github.com/gongeek/shell_gongeek.
 
