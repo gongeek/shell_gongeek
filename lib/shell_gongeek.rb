@@ -19,7 +19,7 @@ module ShellGongeek
       lines.each { |line| pids.push line.split(/[\W]+/)[1] }
       puts pids.join(' ')
       if pids.length>0
-        if system "kill #{pids.join(' ')}"
+        if system "kill -9 #{pids.join(' ')}"
           puts "成功杀死占用#{params[0]}的程序"
         end
       end
